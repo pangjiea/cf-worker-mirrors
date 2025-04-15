@@ -32,6 +32,6 @@ minify = true
 [env.production.vars]
 VERSION = "2.1.0"
 SERVICE_NAME = "cf-worker-mirrors"
-DOMAINS = []
+DOMAINS = ["github.com","hub.docker.com"]
 FORBID_HTML = true
 
